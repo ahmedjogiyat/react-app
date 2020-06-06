@@ -36,4 +36,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge 
     - name: Deploy Using Surge
-      run: surge ./build .surge.sh --token ${{ secrets.JOGI }}
+      run: surge ./build jogi.surge.sh --token ${{ secrets.JOGI }}
